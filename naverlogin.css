@@ -1,0 +1,81 @@
+#loginButton{
+    background-color:rgb(63, 195, 63);
+    width: 20vw;
+}
+
+#redButton{
+    /* background-color: red; */
+}
+
+
+.userinput{
+ 
+}
+
+.userinput1{
+}
+
+.userinput2{
+}
+
+.userpw{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#userpw, #userid{
+    height: 35px;
+}
+
+.loginStatusSign{
+    display:block;
+    /*position:absolute;
+    left:115px;*/
+}
+
+#loginButton{
+    width:370px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    font-weight: 900;    
+    border: rgb(17, 65, 17) ;
+    border-radius: 10px;
+}
+.loginBtn{
+    padding: 50px 30px;
+    
+
+}
+
+#keepLoginStatus{
+    /*position:absolute;
+    left: 94px; */
+    
+}
+
+.headerLogo{
+    display: block;
+    margin: 0 auto;
+    width:200px
+    
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.loginForm{
+    border: 2px solid rgb(194, 188, 188) ;
+    padding-top: 20px;
+    border-radius: 5px;
+    margin-right:50px;
+    margin-left: 50px;
+    height:200px;
+
+}
+.findIdPwSignin{
+    
+    margin: 10px;
+}
