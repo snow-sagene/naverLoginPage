@@ -7,30 +7,32 @@
     /* background-color: red; */
 }
 
-
-.userinput{
- 
-}
-
 .userinput1{
+
 }
 
 .userinput2{
 }
 
 .userpw{
-    position: relative;
-    padding-bottom: 10px;
+  
 }
 
 #userpw, #userid{
+    margin-left: 4%;
     height: 35px;
+    width: 90%;
+
+}
+
+.keeplogin{
+    flex-direction: row;
 }
 
 .loginStatusSign{
-    display:block;
     /*position:absolute;
     left:115px;*/
+    display: inline;
 }
 
 #loginButton{
@@ -41,16 +43,24 @@
     font-weight: 900;    
     border: rgb(17, 65, 17) ;
     border-radius: 10px;
+    margin:0px;
 }
 .loginBtn{
-    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    
     
 
+}
+
+#loginButton{
+    
 }
 
 #keepLoginStatus{
     /*position:absolute;
     left: 94px; */
+    margin-left: 4%;
     
 }
 
@@ -62,8 +72,10 @@
 }
 
 .container{
-    margin: 0 auto;
-    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
 }
 
 .loginForm{
@@ -73,9 +85,13 @@
     margin-right:50px;
     margin-left: 50px;
     height:200px;
+    justify-content: center;
+    width:500px;
+
 
 }
 .findIdPwSignin{
-    
+    display: flex;
+    justify-content: center;    
     margin: 10px;
 }
